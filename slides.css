@@ -9,14 +9,14 @@
   font-size: 0.55em;
 }
 .end-link {
-  font-family: 'Eternal UI', sans-serif;
+  font-family: 'Actay Wide', sans-serif;
   bottom: 10%;
   position: absolute;
   width: 100%;
-  padding: 0 35px;
+  padding: 0 20px;
   font-size: 25px;
   line-height: 1.8;
-  background: #ffc001;
+  background: #eb46e8;
   color: #000;
 }
 .end-link a {

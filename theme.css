@@ -1,7 +1,7 @@
 @font-face {
-  font-family: 'Eternal UI';
-  src: url("EternalUI-Regular.woff2") format('woff2'), url("EternalUI-Regular.woff") format('woff');
-  font-weight: normal;
+  font-family: 'Actay Wide';
+  src: url("ActayWide-Bold.woff2") format('woff2'), url("ActayWide-Bold.woff") format('woff');
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
@@ -9,10 +9,11 @@ li,
 th,
 td {
   font-family: 'PT Mono', sans-serif;
+  color: #fff;
 }
 blockquote {
   font-family: 'PT Mono', sans-serif;
-  color: #272931;
+  color: #020a11;
   font-weight: 100;
   letter-spacing: -1px;
 }
@@ -20,13 +21,13 @@ blockquote:before {
   font-family: 'PT Sans';
 }
 .source {
-  font-family: 'Eternal UI', sans-serif;
+  font-family: 'Actay Wide', sans-serif;
   bottom: 10%;
   position: absolute;
   padding: 0 15px;
   font-size: 25px;
   line-height: 1.8;
-  background: #ffc001;
+  background: #eb46e8;
   left: 0;
   text-align: center;
 }
@@ -40,14 +41,14 @@ blockquote:before {
   background: none;
   height: 75px;
   min-width: 55px;
-  color: #fff;
-  font-family: 'Eternal UI', sans-serif;
+  color: #020a11;
+  font-family: 'Actay Wide', sans-serif;
   font-size: 40px;
-  padding-top: 0;
+  padding: 0 7px;
   margin-left: 30px;
 }
 .slide.rbn::after {
-  background: #272931;
+  background: #eb46e8;
 }
 .slide::before {
   position: absolute;
@@ -63,9 +64,8 @@ blockquote:before {
 }
 .slide h2 {
   color: #000;
-  font-family: 'Eternal UI', sans-serif;
+  font-family: 'Actay Wide', sans-serif;
   font-weight: 100;
-  letter-spacing: 1px;
 }
 .slide a {
   color: #008000;
@@ -109,7 +109,7 @@ blockquote:before {
   color: #999;
 }
 .progress:before {
-  background: #ffc001;
+  background: #eb46e8;
 }
 .tag {
   color: #ad1531;
@@ -141,7 +141,7 @@ blockquote:before {
   opacity: 0;
 }
 .slide.menu-slide .selected-item {
-  background-color: #272931;
+  background-color: #020a11;
   display: inline-block;
 }
 .slide.menu-slide .transparent {
@@ -149,22 +149,21 @@ blockquote:before {
 }
 .slide.label-header h2 {
   display: inline-block;
-  background-color: #ffc001;
-  padding: 10px 15px 15px;
-  font-family: 'Eternal UI', sans-serif;
-  font-size: 44px;
-  letter-spacing: 1.5px;
-  color: #272931;
+  background-color: #eb46e8;
+  padding: 12px;
+  font-family: 'Actay Wide', sans-serif;
+  font-size: 35px;
+  color: #020a11;
 }
 .slide.label-header h2.shout {
   margin-left: 0;
-  padding: 20px 0 30px;
-  font-size: 62px;
+  padding: 20px 0;
+  font-size: 52px;
   border: none;
 }
 .slide.label-header.bg h2 {
   background: none;
-  padding: 10px 0 15px;
+  padding: 15px;
 }
 .slide.capture h2.shout {
   font-size: 64px;
@@ -196,17 +195,19 @@ blockquote:before {
   background: #000;
 }
 blockquote {
-  font-size: 35px;
+  font-size: 20px;
   line-height: 1.4;
+  color: #fff;
 }
 figcaption {
+  color: #fff;
   opacity: 0.5;
   position: relative;
   line-height: 1.6;
-  margin-top: 40px !important;
+  margin-top: 20px !important;
 }
 .label {
-  background-color: #272931;
+  background-color: #020a11;
   color: #fff;
   padding: 0 10px;
   display: inline-block;
